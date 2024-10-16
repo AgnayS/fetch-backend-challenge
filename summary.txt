@@ -1,0 +1,30 @@
+# Summary
+
+1. Why did you choose the tools, libraries, and language you used for the coding exercise?
+
+I chose Python with FastAPI for the backend because of its simplicity, speed, and built-in support for asynchronous operations. FastAPI also provides automatic API documentation, which is helpful for testing and future development. For the frontend, I used Flutter because it allows for cross-platform development with a single codebase, providing a responsive and native-like experience on both web and mobile platforms.
+
+2. What are the advantages and disadvantages of your solution?
+
+Advantages:
+- Separation of concerns between frontend and backend
+- Scalable architecture that can be easily extended
+- Real-time updates and responsive UI
+- Cross-platform compatibility of the frontend
+
+Disadvantages:
+- Complexity might be overkill for a simple points system
+- Requires setting up both Python and Flutter environments
+- Potential overhead in maintaining two separate codebases
+
+3. What has been a favorite school/personal project thus far? What about it that challenged you?
+
+I believe RoseDine was by far the most fun project that I worked on and the most challenging. The motivation for this was to create a complete replacement for our college cafeteria's website, with a smarter, less bloated, and more user-friendly interface. The project was challenging because it needed me to not only build the web-scraper, recommendation system, backend and frontend from scratch, but also host my own database, which I did on a personal server, that I am currently hosting back in India.
+
+It also needed me to securely expose the database and server to the world, and so, I learnt about tailscale, and setup tailscale funnel (a reverse proxy) for secure access to my springboot backend on that machine. I set up github actions to have automated APK releases, and also used vercel to host the website.
+
+The process of setting up each of these, ensuring that they were working together, and that the scraper never had any downtime was a major challenge, as well as having hosting setup with firewalls that were resistant to DDOS attacks.
+
+The project was also fun because it was a project that I could use myself, and I did use it for a while, and it was a great experience to see my own project being used by others in my college (at 100+ users in a college of ~2000 students now!!)
+
+If you have the time, I'd encourage that you check this out, at https://rosedine.com and let me know what you think! The code is available at https://github.com/Rose-Dine organization.
